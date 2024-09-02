@@ -1,0 +1,246 @@
+body{
+    margin: 0px 0px;
+    font-family: 'Lato';
+}
+
+
+button{
+    width: 135px;
+    height: 28px;
+    border-radius: 55px;
+    font-size: 10px;
+    color: #f9fbfe;
+    font-weight: 100;
+    background-color: #A8201A;
+    border-style: none;
+}
+
+
+header{
+    height: 104px;
+    background-color: #0F8B8D;
+    border-radius: 20px 20px 0px 0px;
+}
+.header-wrapper img{
+    width: 135px;
+    height: 27px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.navigation-links{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+.navigation-links a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.main-wrapper{
+    padding: 20px 40px 30px 40px;
+}
+.main-img{
+    width: 279px;
+    display: flex;
+    justify-content: center;
+}
+.main-wrapper h3{
+    color: #0F8B8D;
+    margin-bottom: 10px;
+}
+.main-wrapper h1{
+    font-weight: bold;
+    color: #0F8B8D;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.main-wrapper p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.desc-wrapper h3{
+    color: #0F8B8D;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.desc-line {
+    height: 1px;
+    width: 100%;
+    background-color: #EC9A29;
+}
+.desc-wrapper{
+    margin-bottom: 30px;
+}
+
+
+footer {
+    height: fit-content;
+    background-color: #143642;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.logo-footer {
+    width: 145px;
+    height: 29px;
+}
+
+.imgiconwrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconwrp {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.mail-icon, .phone-icon {
+    height: 25px;
+}
+
+.mail-icon{
+    padding-right: 10px;
+}
+
+.footlinks-list{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.footlinks-list {
+    margin-top: 10px;
+}
+
+.footlinks-list h3{
+    font-size: 14px;
+    color: #EC9A29;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.footlinks-list ul{
+    padding-left: 30px;
+}
+
+.footlinks-list li{
+    list-style: none;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+.copyright p{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-size: 12px;
+}
+
+
+@media only screen and (min-width: 992px) {
+    button{
+        width: 335px;
+        height: 70px;
+        border-radius: 70px;
+        font-size: 24px;
+    }
+    
+    
+    header{
+        height: 145px;
+        border-radius: 30px 30px 0px 0px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-wrapper img{
+        width: 335px;
+        height: 67px;
+        margin-top: 40px;
+        margin-left: 138px;
+    }
+    .navigation-links{
+        margin-top: 54px;
+        margin-right: 138px;
+    }
+    .navigation-links a{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+
+    .main-wrapper{
+        padding: 50px 254px 100px 138px;
+    }
+    .main-img{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    .butterscotch-wrapper{
+        display: flex;
+    }
+    .main-wrapper h3{
+        margin-bottom: 30px;
+        font-size: 48px;
+    }
+    .main-wrapper h1{
+        font-size: 60px;
+    }
+    .main-wrapper p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .desc-wrapper h3{
+        color: #0F8B8D;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .desc-line {
+        height: 5px;
+    }
+    .desc-wrapper{
+        margin-bottom: 30px;
+        margin-left: 120px;
+    }
+
+
+    footer{
+        padding: 80px 138px;
+    }
+    .footer-wrapper {
+        display: flex;
+    }
+    .imgiconwrp{
+        display: block;
+    }
+    .logo-footer{
+        width: 335px;
+        height: 67px;
+    }
+    .iconwrp{
+        margin-top: 30px;
+    }
+    .phone-icon, .mail-icon{
+        height: 32px;
+    }
+    .footlinks-list{
+        display: flex;
+    }
+    .footlinks-list ul{
+        padding-left: 0px;
+    }
+    .footlinks-list h3{
+        font-size: 24px;
+    }
+    .footlinks-list li{
+        font-size: 24px;
+    }
+    .footlinks-product, .footlinks-store, .footlinks-contact{
+        padding-left: 140px;
+    }
+}

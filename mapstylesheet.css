@@ -1,0 +1,224 @@
+body{
+    margin: 0px 0px;
+    font-family: 'Lato';
+}
+
+
+header{
+    height: 104px;
+    background-color: #0F8B8D;
+    border-radius: 20px 20px 0px 0px;
+}
+.header-wrapper img{
+    width: 135px;
+    height: 27px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.navigation-links{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+.navigation-links a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.main-wrapper{
+    padding: 40px;
+}
+.main-img-wrapper img{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+.address-wrapper h2{
+    color: #0F8B8D;
+    font-size: 20px;
+}
+.address-wrapper p{
+    font-size: 12px;
+    color: #143642;
+}
+
+.address h2{
+    color: #143642;
+    font-size: 16px;
+}
+.block71, .woodland, .ikea {
+    margin-top: 20px;
+    height: 111px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2D2D2;
+    border-radius: 10px;
+}
+.block71-txt, .woodland-txt, .ikea-txt {
+    margin: 25px;
+}
+
+
+footer {
+    height: fit-content;
+    background-color: #143642;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.logo-footer {
+    width: 145px;
+    height: 29px;
+}
+
+.imgiconwrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconwrp {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.mail-icon, .phone-icon {
+    height: 25px;
+}
+
+.mail-icon{
+    padding-right: 10px;
+}
+
+.footlinks-list{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.footlinks-list {
+    margin-top: 10px;
+}
+
+.footlinks-list h3{
+    font-size: 14px;
+    color: #EC9A29;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.footlinks-list ul{
+    padding-left: 30px;
+}
+
+.footlinks-list li{
+    list-style: none;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+.copyright p{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-size: 12px;
+}
+
+
+@media only screen and (min-width: 992px) {
+    header{
+        height: 145px;
+        border-radius: 30px 30px 0px 0px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-wrapper img{
+        width: 335px;
+        height: 67px;
+        margin-top: 40px;
+        margin-left: 138px;
+    }
+    .navigation-links{
+        margin-top: 54px;
+        margin-right: 138px;
+    }
+    .navigation-links a{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+
+    .main-wrapper{
+        padding: 100px 138px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-img-wrapper img{
+        width: 572px;
+        height: 572px;
+        border-radius: 20px;
+    }
+    .address-wrapper h2{
+        color: #0F8B8D;
+        font-size: 48px;
+    }
+    .address-wrapper p{
+        font-size: 18px;
+        color: #143642;
+    }
+    
+    .address h2{
+        color: #143642;
+        font-size: 30px;
+    }
+    .block71, .woodland, .ikea {
+        height: 196px;
+        width: 474px;
+        border-width: 2px;
+        border-radius: 20px;
+    }
+    .block71-txt, .woodland-txt, .ikea-txt {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+
+    footer{
+        padding: 80px 138px;
+    }
+    .footer-wrapper {
+        display: flex;
+    }
+    .imgiconwrp{
+        display: block;
+    }
+    .logo-footer{
+        width: 335px;
+        height: 67px;
+    }
+    .iconwrp{
+        margin-top: 30px;
+    }
+    .phone-icon, .mail-icon{
+        height: 32px;
+    }
+    .footlinks-list{
+        display: flex;
+    }
+    .footlinks-list ul{
+        padding-left: 0px;
+    }
+    .footlinks-list h3{
+        font-size: 24px;
+    }
+    .footlinks-list li{
+        font-size: 24px;
+    }
+    .footlinks-product, .footlinks-store, .footlinks-contact{
+        padding-left: 140px;
+    }
+}
